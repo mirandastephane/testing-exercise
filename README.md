@@ -7,7 +7,7 @@
 1. Java 8 
 2. Eclipse IDE
 3. Browser Drivers
-    3.1 GeckoDrive - [download link](https://github.com/mozilla/geckodriver/releases)
+- GeckoDrive - [download link](https://github.com/mozilla/geckodriver/releases)
 
 ### Get Started
 

@@ -13,7 +13,6 @@
 #### 1. Configure the driver path in the operating system
 
   ##### 1.1 Windows
- 
 - With the balance executable in a local folder
 - Go to “Control Panel> System and Security> System”, click on “Advanced system settings”
 - Click on the “Advanced” tab, click on “Environment Variables”

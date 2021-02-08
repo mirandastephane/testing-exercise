@@ -1,0 +1,28 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class DSL {
+	
+	private WebDriver driver;
+	
+	public DSL(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void writeField(String xpath_field, String words) {
+		driver.findElement(By.xpath("xpath_field")).sendKeys("words");
+	}
+	
+	public void clickButton(String xpath_field) {
+		driver.findElement(By.xpath("xpath_field")).click();
+	}
+	
+	public void selectOption(String xpath_field, String value) {
+		WebElement element  = driver.findElement(By.xpath("xpath_field"));
+		Select combo= new Select(element);
+		combo.selectByVisibleText("value");
+		
+	}
+}

@@ -20,17 +20,17 @@
 - Locate the “Path” in the “System variables” section
 - With it selected, click on “Edit…”
  Attention: Do not delete the contents of the variable, just add the path to the folder with drivers at the beginning.
-- Don't forget to put one; (semicolon) to make a division with the other values that are already in the variable.
+- Don't forget to put a ; (semicolon)o make a division with the other values that are already in the variable.
 - Click the OK button for all windows that have been opened
  
 ##### 1.2 Linux
   
-- Once I have downloaded the drivers in a directory, just add it to a file that is loaded by the operating system. I recommend the / etc / profile file, but it is important to know that the files may vary depending on the OS distribution you are using.
+- Once you have downloaded, just add it to a file that is loaded by the operating system. I recommend the / etc / profile file, but it is important to know that the files may vary depending on the OS distribution you are using.
 - Add, at the end of the file, a line that will inform the directory in question to the PATH of the operating system: ``` export PATH=$PATH:/PATH/OF/YOUR/FOLDER ```
 
 ##### 1.3 OSX
   
-- Once I downloaded the drivers in a directory, just add it to a file that is loaded by the operating system, for OSX, I recommend the /etc/paths file.
+- Once you have downloaded, just add it to a file that is loaded by the operating system, for OSX, I recommend the /etc/paths file.
 - Add, at the end of the file, the full path to the folder where you placed the drivers:``` /PATH/OF/YOUR/FOLDER```
     
 #### 2. Clone

@@ -14,7 +14,7 @@
 
   ##### 1.1 Windows
   
-- With the balance executable in a local folder
+- Having all the drivers in one folder
 - Go to “Control Panel> System and Security> System”, click on “Advanced system settings”
 - Click on the “Advanced” tab, click on “Environment Variables”
 - Locate the “Path” in the “System variables” section

@@ -1,0 +1,9 @@
+
+public class TestFormPage {
+
+	private DSL dsl = new DSL(driver);
+	
+	public void setName(String name) {
+		dsl.write("//input[@type='text']", name);
+	}
+}

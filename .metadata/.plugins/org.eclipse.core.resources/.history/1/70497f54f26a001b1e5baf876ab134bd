@@ -1,0 +1,31 @@
+import org.openqa.selenium.WebDriver;
+
+public class TestFormPage {
+
+	private DSL dsl;
+	
+	public TestFormPage(WebDriver driver) {
+		dsl = new DSL(driver);
+		
+	}
+	
+	public void setName(String name) {
+		dsl.write("//input[@type='text']", name);
+	}
+	
+	public void setMonth(String month) {
+		dsl.selectCombo("//select[@name='month']", month);
+	}
+	
+	public void setYear(String year) {
+		dsl.selectCombo("//select[@name='year']", year);
+	}
+	
+	public void setSubmit() {
+		dsl.clickSubmit("lfr-ddm-form-submit");
+	}
+	
+	public void setText(String text) {
+		dsl.write("//textarea[@type='text']\"", text);
+	}
+}

@@ -1,0 +1,24 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class DSL {
+	
+	private WebDriver driver;
+	
+	public DSL(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void write(String xpath_field, String text) {
+		driver.findElement(By.xpath(xpath_field)).sendKeys(text);
+	}
+	
+	public String getFieldValue(String xpath_field) {
+		return driver.findElement(By.xpath(xpath_field)).getAttribute("value");
+	}
+
+	public selectCombo(String xpath_field, String value) {
+		WebElement element = driver.findElement(By.xpath(""));
+	}
+}

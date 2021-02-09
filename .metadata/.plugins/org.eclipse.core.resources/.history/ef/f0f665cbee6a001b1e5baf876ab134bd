@@ -1,0 +1,9 @@
+
+public class TestFormPage {
+
+	private DSL dsl;
+	
+	public void setName(String name) {
+		dsl.write("//input[@type='text']", name);
+	}
+}

@@ -1,0 +1,6 @@
+package br.ce.sduarte.core;
+
+public class Properties {
+	
+	public static boolean CLOSED_BROWSER = false;
+}

@@ -1,0 +1,12 @@
+package br.ce.sduarte.core;
+
+import org.openqa.selenium.WebDriver;
+
+public class DriverFactory {
+
+	private static WebDriver driver;
+	
+	private DriverFactory() {
+		
+	}
+}

@@ -1,0 +1,15 @@
+import org.openqa.selenium.WebDriver;
+
+public class TestFormPage {
+
+	private DSL dsl;
+	
+	public TestFormPage(WebDriver driver) {
+		dsl = new DSL(driver);
+		
+	}
+	
+	public void setName(String name) {
+		dsl.write("//input[@type='text']", name);
+	}
+}
